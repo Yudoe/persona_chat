@@ -26,7 +26,7 @@ An AI chatbot that lets you have conversations with historical figures or fictio
 
 ```bash
 git clone <repo-url>
-cd interviewer
+cd persona_chat
 ```
 
 ### 3. Create the environment file
@@ -73,5 +73,5 @@ The chat UI will open at `http://localhost:8501`.
 ## Usage
 
 1. Open `http://localhost:8501` in your browser
-2. Click **"Create new persona"** in the sidebar and fill in the details (e.g. name: *Albert Einstein*, birthdate: *1879*, lived place: *Princeton, USA*, etc.)
+2. Click **"Create new persona"** in the sidebar and fill in the details
 3. Select the persona from the dropdown and start chatting
