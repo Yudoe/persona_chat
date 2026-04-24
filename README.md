@@ -32,10 +32,10 @@ cd interviewer
 ### 3. Create the environment file
 
 ```bash
-cp backend/.env.example backend/.env
+cp .env.example .env
 ```
 
-Open `backend/.env` and replace the placeholder with your actual Anthropic API key:
+Open `.env` and replace the placeholder with your actual Anthropic API key:
 
 ```
 ANTHROPIC_API_KEY=
@@ -44,7 +44,6 @@ ANTHROPIC_API_KEY=
 ### 4. Install dependencies
 
 ```bash
-cd backend
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -57,7 +56,6 @@ You need two terminals, both with the virtual environment activated (`source .ve
 **Terminal 1 — FastAPI backend:**
 
 ```bash
-cd backend
 fastapi dev main.py
 ```
 
@@ -67,7 +65,6 @@ Interactive API docs: `http://localhost:8000/docs`
 **Terminal 2 — Streamlit frontend:**
 
 ```bash
-cd backend
 streamlit run streamlit_app.py
 ```
 
